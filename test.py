@@ -15,7 +15,7 @@ GROQ_API_KEY = "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"
 HUGGINGFACE_API_KEY = "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"
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-llm = ChatGroq(model_name="gemma2-9b-it")
+llm = ChatGroq(model_name="llama-3.1-8b-instant")
 
 prompt = ChatPromptTemplate.from_template(
     """
