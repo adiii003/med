@@ -11,7 +11,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 import time
 
 # Replace with your actual API keys
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 HUGGINGFACE_API_KEY = "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"
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
