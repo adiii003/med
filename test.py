@@ -128,5 +128,5 @@ user_input = st.text_input(
     on_change=process_input 
 )
 
-st.sidebar.title("MEDIC")
+st.sidebar.title("MEDIC !")
 st.sidebar.info("Powered by Groq LLM")
