@@ -21,7 +21,9 @@ prompt = ChatPromptTemplate.from_template(
     """
     Answer the questions based on the provided context only.
     Please provide the most accurate response based on the question
-    If u feel that the question is relavant to the dataset availabe in the pdf dataset try helping the user and get teh job done
+    If u feel that the question is relavant to the dataset availabe in the pdf dataset try helping the user and get teh job done 
+    try making it patient centric as the user is a patient and wants you tu use your knowledge and help it accordingly
+    patients are coming to you and treating you as their personal assistant or thinking you are a virtual doctor present to help regarding their health
     <context>
     {context}
     <context>
